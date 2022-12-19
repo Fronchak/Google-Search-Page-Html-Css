@@ -205,3 +205,106 @@ header {
     font-size: 14px;
     text-decoration: none;
 }
+
+/* Aside Gallery */
+
+#gallery-box {
+    height: 186px;
+    position: relative;
+}
+
+#first-img {
+    border-top-left-radius: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+    height: 186px;
+    position: absolute;
+    top: 0;
+    left: 149px;
+}
+
+#gallery div {
+    flex: 1 1 30%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+#gallery-img1 {
+    background-image: url(../imgs/turing1.jpg);
+}
+
+#gallery-img2 {
+    background-image: url(../imgs/turing2.jpg);
+}
+
+#gallery-img3 {
+    background-image: url(../imgs/turing3.jpg);
+}
+
+#gallery-img4 {
+    background-image: url(../imgs/turing4.jpg);
+}
+
+#gallery-img5 {
+    background-image: url(../imgs/turing5.jpg);
+}
+
+#gallery-img6 {
+    background-image: url(../imgs/turing6.jpg);
+}
+
+#moreimg-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    border-top-left-radius: 5px;
+}
+
+#moreimg-btn span {
+    margin-right: 5px;
+}
+
+/* Aside infos */ 
+
+#about-box {
+    border: 1px solid #EBEBEB;
+}
+
+#name-box {
+    border-bottom: 1px solid #EBEBEB;
+    padding: 0 15px;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+#role {
+    color: #70757A;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.about-text {
+    font-size: 14px;
+    color: #222;
+    line-height: 1.57;
+    padding: 0 15px;
+}
+
+.about-text span {
+    font-weight: bold;
+}
